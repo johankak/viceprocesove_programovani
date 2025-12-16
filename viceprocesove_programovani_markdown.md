@@ -158,12 +158,16 @@ sem_post  // unlock
 - definice kritické sekce
 - vzájemné vylučování
   - znemožňuje, aby se více procesů nacházelo současně v kritické sekci
+- prevence/vyhýbání se
+- detekce a zotavení 
+  - nechat deadlock vzinkout, pravidelně ho detekovat a následně řešit
+  - systém "násilně" ukončí jeden nebo více procesů často za cenu ztráty práce jednoho z procesů
 
 ## Úkoly
 
 ### Úkol 1
 
-- naprogramujte multiprocesový program v C++, kde dojde k deadlocku
+- naprogramujte multiprocesový program v C++, kde může dojít k deadlocku
 
 ### Úkol 2
 
