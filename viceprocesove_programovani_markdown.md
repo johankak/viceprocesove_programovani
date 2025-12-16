@@ -2,7 +2,7 @@
 
 ## Program × proces
 
-- **Program** = posloupnost instrukcí a data uložená na disku (pasivní)
+- **Program** = posloupnost instrukcí a dat uložená na disku (pasivní)
 - **Proces** = abstrakce spuštěného programu, včetně aktuálních hodnot registrů a proměnných
   - Příklad: stavím sídliště
     - nákres domu = program
